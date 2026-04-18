@@ -8,7 +8,16 @@ st.set_page_config(page_title="ARKL Non-Karsinogenik", page_icon="🛡️", layo
 st.markdown("""
     <style>
     .main { background-color: #f5f7f9; }
-    .stMetric { background-color: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    .stMetric { 
+        background-color: #ffffff; 
+        padding: 15px; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border: 1px solid #e6e9ef;
+    }
+    /* Memaksa warna teks label dan nilai menjadi gelap */
+    [data-testid="stMetricLabel"] { color: #555555 !important; }
+    [data-testid="stMetricValue"] { color: #1f1f1f !important; }
     </style>
     """, unsafe_allow_html=True)
 
