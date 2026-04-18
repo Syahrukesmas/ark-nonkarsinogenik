@@ -86,3 +86,4 @@ with tab2:
         rk2.metric("Excess Cancer Risk (ECR)", f"{ecr:.7f}", delta="TIDAK AMAN", delta_color="inverse")
     else:
         rk2.metric("Excess Cancer Risk (ECR)", f"{ecr:.7f}", delta="AMAN")
+#MASIH DALAM TAHAP PENGEMBANGAN, JIKA ADA YANG SALAH SILAHKAN HUBUNGI EMAIL:muhamaddoni689@gmail.com
