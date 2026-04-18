@@ -1,8 +1,4 @@
 import streamlit as st
-st.title("Kalkulator ARKL Non-Karsinogenik")
-st.write("Aplikasi siap digunakan.")
-cat > app.py <<EOF
-import streamlit as st
 import pandas as pd
 
 # Konfigurasi Halaman
