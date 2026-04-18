@@ -86,4 +86,17 @@ with tab2:
         rk2.metric("Excess Cancer Risk (ECR)", f"{ecr:.7f}", delta="TIDAK AMAN", delta_color="inverse")
     else:
         rk2.metric("Excess Cancer Risk (ECR)", f"{ecr:.7f}", delta="AMAN")
+
 #MASIH DALAM TAHAP PENGEMBANGAN, JIKA ADA YANG SALAH SILAHKAN HUBUNGI EMAIL:muhamaddoni689@gmail.com
+
+# --- FOOTER / KETERANGAN PENGEMBANGAN ---
+st.divider() # Garis pemisah horizontal
+
+# Menggunakan markdown dengan font style yang sedikit lebih kecil (italics)
+st.markdown("""
+    <div style="text-align: center; color: #666666; font-size: 0.9em;">
+        ⚠️ <i>Aplikasi ini masih dalam <b>Tahap Pengembangan</b>.</i><br>
+        Jika ditemukan kesalahan perhitungan atau kendala teknis, silakan hubungi:<br>
+        📧 <b>Email:</b> <a href="mailto:muhamaddoni689@gmail.com">muhamaddoni689@gmail.com</a>
+    </div>
+    """, unsafe_allow_html=True)
