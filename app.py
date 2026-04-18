@@ -73,7 +73,7 @@ with tab2:
             dt_kar = st.number_input("Durasi (Dt)", value=30, key="dt_kar")
         with ck3:
             wb_kar = st.number_input("Berat Badan (Wb)", value=70.0, key="wb_kar")
-            life_time = st.number_input("Life Time (Hari)", value=25550, key="lt_kar")
+            life_time = st.number_input("Life Time (Tavg)", value=25550, key="lt_kar")
 
     # Hitung ECR
     intake_kar = (c_kar * r_kar * te_kar * fe_kar * dt_kar) / (wb_kar * life_time)
